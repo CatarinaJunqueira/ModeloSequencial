@@ -1,0 +1,2 @@
+# ModeloSequencial
+Modelo Sequencial
