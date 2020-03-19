@@ -1,0 +1,11 @@
+Infeasibility row 'restI8_3_3_11_6':  0 <= -11.
+Presolve time = 1.56 sec. (78.36 ticks)
+
+Root node processing (before b&c):
+  Real time             =    1.86 sec. (124.97 ticks)
+Parallel b&c, 20 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =    1.86 sec. (124.97 ticks)
