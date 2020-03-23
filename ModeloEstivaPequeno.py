@@ -123,7 +123,7 @@ def ModeloEstivaPequeno(casename):
     fobj = model.solution.get_objective_value()
     #Navio = obterNavio(model,R,C,Npatios)
   
-    Y = 'Instancia Carregamento: %s <br> Rodado em: %s <br> Solution status: %s  <br> Valor da Funcao Objetivo Carregamento: %s  <br> Duracao: %s <br>' %(casename,socket.gethostname(),status,fobj,solvetime)
+    Y = 'Instancia Estiva: %s <br> Rodado em: %s <br> Solution status: %s  <br> Valor da Funcao Objetivo Carregamento: %s  <br> Duracao: %s <br>' %(casename,socket.gethostname(),status,fobj,solvetime)
     email_alert(Y,z, out_string)
     
     print('\nSolution status = ',status)
@@ -401,7 +401,8 @@ def obterP(model,H,W,omega,T,phi):
     
 if __name__ == "__main__":
     
-    X = [1, 2 , 3, 5, 6, 4, 9, 10, 11, 12, 13, 14]
+    #X = [1, 2 , 3, 5, 6, 4, 9, 10, 11, 12, 13, 14]
+    X= [7, 8, 4]
     for i in X:
         
         name_instance1 = 'InstanciaModeloIntegrado_' + str(i) + '.mat'
