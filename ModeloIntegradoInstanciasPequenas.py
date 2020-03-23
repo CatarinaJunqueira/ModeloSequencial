@@ -1282,7 +1282,7 @@ def obterP(model,H,W,omega,T):
                    
 if __name__ == "__main__":
     
-    X= [2,3,4,7,8,9,10,11,12]
+    X= [2,3,4,7]
     for i in X:
         
         name_instance1 = 'InstanciaModeloIntegrado_' + str(i) + '.mat'
