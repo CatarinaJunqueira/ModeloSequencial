@@ -1,0 +1,48 @@
+CPXPARAM_TimeLimit                               86400
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 20
+Tried aggregator 3 times.
+MIP Presolve eliminated 237374 rows and 313981 columns.
+MIP Presolve modified 461483 coefficients.
+Aggregator did 346 substitutions.
+Reduced MIP has 100009 rows, 809630 columns, and 8860933 nonzeros.
+Reduced MIP has 809630 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 11.99 sec. (9282.81 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 2 rows and 0 columns.
+Aggregator did 1 substitutions.
+Reduced MIP has 100006 rows, 809629 columns, and 8860907 nonzeros.
+Reduced MIP has 809629 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 8.04 sec. (5123.79 ticks)
+Probing time = 1.15 sec. (198.98 ticks)
+Clique table members: 554781.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 47.18 sec. (32642.62 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        0.0000 10251                      0.0000       22         
+*     0+    0                         2033.0000        0.0000           100.00%
+      0     0        0.0000  2426     2033.0000   ZeroHalf: 4    16166  100.00%
+      0     0        0.0000  1882     2033.0000     Cuts: 287    42992  100.00%
+      0     0        0.0000   946     2033.0000 ZeroHalf: 236    55311  100.00%
+*     0+    0                          141.0000        0.0000           100.00%
+*     0+    0                          118.0000        0.0000           100.00%
+      0     0        0.0000   661      118.0000  ZeroHalf: 90    71439  100.00%
+*     0+    0                            0.0000        0.0000             0.00%
+      0     0        cutoff              0.0000        0.0000    71439    0.00%
+Elapsed time = 406.14 sec. (266012.53 ticks, tree = 0.01 MB, solutions = 4)
+
+Zero-half cuts applied:  139
+
+Root node processing (before b&c):
+  Real time             =  406.24 sec. (266103.37 ticks)
+Parallel b&c, 20 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  406.24 sec. (266103.37 ticks)
