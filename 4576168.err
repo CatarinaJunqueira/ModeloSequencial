@@ -1,0 +1,16 @@
+Warning: MIP starts not constructed because of out-of-memory status.
+CPLEX Error  1001: Out of memory.
+Traceback (most recent call last):
+  File "ModeloEstivaGrande.py", line 409, in <module>
+    _ = ModeloEstivaGrande(name_instance1)          
+  File "ModeloEstivaGrande.py", line 132, in ModeloEstivaGrande
+    SolucaoCarregamento, fobjCarregamento = ModeloSequencial(casename,model)
+  File "/home/mparedes/ModeloSequencial/ModeloSequencial.py", line 145, in ModeloSequencial
+    model.solve()
+  File "/home/mparedes/virtualenvs/navenv/lib/python2.7/site-packages/cplex/__init__.py", line 1099, in solve
+    _proc.mipopt(self._env._e, self._lp)
+  File "/home/mparedes/virtualenvs/navenv/lib/python2.7/site-packages/cplex/_internal/_procedural.py", line 629, in mipopt
+    check_status(env, status)
+  File "/home/mparedes/virtualenvs/navenv/lib/python2.7/site-packages/cplex/_internal/_procedural.py", line 303, in __call__
+    raise CplexSolverError(error_string, env, status)
+cplex.exceptions.errors.CplexSolverError: CPLEX Error  1001: Out of memory.

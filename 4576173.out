@@ -1,0 +1,447 @@
+Sender: LSF System <lsfadmin@nx360006>
+Subject: Job 4576173: <python ModeloEstivaGrande2.py> in cluster <brl> Done
+
+Job <python ModeloEstivaGrande2.py> was submitted from host <masternode> by user <mparedes> in cluster <brl>.
+Job was executed on host(s) <20*nx360006>, in queue <normal>, as user <mparedes> in cluster <brl>.
+</home/mparedes> was used as the home directory.
+</home/mparedes/ModeloSequencial> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python ModeloEstivaGrande2.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   10815.60 sec.
+    Max Memory :                                 61402 MB
+    Average Memory :                             16220.06 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                23
+    Run time :                                   2977 sec.
+    Turnaround time :                            4748 sec.
+
+The output (if any) follows:
+
+InstanciaModeloIntegrado_7_1.mat
+parametros criados
+variavel w criada
+variavel u criada
+variaveis criadas
+restricao I10 criada
+restricao N1 criada
+restricao N2 criada
+restricao N3 criada
+restricao N4 criada
+restricoes criadas
+Numero de Variaveis =  24360
+Numero de Restricoes =  3474
+resolvendo o modelo
+CPXPARAM_TimeLimit                               43200
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 20
+Tried aggregator 2 times.
+MIP Presolve eliminated 2258 rows and 17100 columns.
+MIP Presolve modified 100 coefficients.
+Aggregator did 180 substitutions.
+Reduced MIP has 1036 rows, 7080 columns, and 40580 nonzeros.
+Reduced MIP has 7080 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.05 sec. (60.16 ticks)
+Found incumbent of value 111.000000 after 0.13 sec. (117.45 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 1036 rows, 7080 columns, and 40580 nonzeros.
+Reduced MIP has 7080 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.04 sec. (34.31 ticks)
+Probing time = 0.01 sec. (4.40 ticks)
+Clique table members: 5084.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 0.16 sec. (184.17 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                          111.0000        0.0000           100.00%
+      0     0        7.2727   650      111.0000        7.2727        0   93.45%
+      0     0        7.2727   468      111.0000      Cuts: 58      554   93.45%
+      0     0        7.7241   418      111.0000     Cuts: 219     1708   93.04%
+*     0+    0                           21.0000        7.7241            63.22%
+      0     0        8.4647   437       21.0000     Cuts: 132     3309   59.69%
+*     0+    0                           12.0000        8.4647            29.46%
+      0     0        8.7093   389       12.0000     Cuts: 108     4281   27.42%
+      0     0        9.1364   382       12.0000      Cuts: 93     5403   23.86%
+      0     0        9.4000   283       12.0000     Cuts: 109     6105   21.67%
+      0     0        9.8542   285       12.0000      Cuts: 56     6878   17.88%
+      0     0       10.0000   246       12.0000      Cuts: 55     7143   16.67%
+      0     0       10.0000   254       12.0000      Cuts: 23     7408   16.67%
+      0     0       10.0000   249       12.0000   ZeroHalf: 9     7808   16.67%
+*     0+    0                           11.0000       10.0000             9.09%
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 91 rows and 4693 columns.
+Reduced MIP has 945 rows, 2387 columns, and 13624 nonzeros.
+Reduced MIP has 2387 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (11.00 ticks)
+Probing time = 0.01 sec. (2.18 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 945 rows, 2387 columns, and 13624 nonzeros.
+Reduced MIP has 2387 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.19 ticks)
+Represolve time = 0.07 sec. (70.65 ticks)
+Probing time = 0.01 sec. (2.17 ticks)
+Clique table members: 4660.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 0.16 sec. (145.96 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+*     0+    0                           11.0000       10.0000             9.09%
+      0     0       10.0000   312       11.0000       10.0000     9955    9.09%
+      0     2       10.0000    93       11.0000       10.0000     9958    9.09%
+Elapsed time = 5.39 sec. (4877.13 ticks, tree = 0.01 MB, solutions = 4)
+     14     5        cutoff             11.0000       10.0000    13084    9.09%
+     75    20        cutoff             11.0000       10.0000    33676    9.09%
+    218    64       10.0000   199       11.0000       10.0000    95723    9.09%
+    508    25        cutoff             11.0000       10.0000   144172    9.09%
+    701    15       10.0000   172       11.0000       10.0000   186455    9.09%
+    782    13       10.0000   238       11.0000       10.0000   202432    9.09%
+
+Clique cuts applied:  194
+Zero-half cuts applied:  110
+Lift and project cuts applied:  4
+Gomory fractional cuts applied:  9
+
+Root node processing (before b&c):
+  Real time             =    5.37 sec. (4877.15 ticks)
+Parallel b&c, 20 threads:
+  Real time             =    2.21 sec. (1583.37 ticks)
+  Sync time (average)   =    1.00 sec.
+  Wait time (average)   =    0.01 sec.
+                          ------------
+Total (root+branch&cut) =    7.59 sec. (6460.52 ticks)
+
+Duracao =  7.79714608192
+
+Solution status =  integer optimal solution
+Valor da Funcao Objetivo Estiva:  11.0
+parametros criados
+variavel x criada
+variavel b criada
+variavel v criada
+variavel y criada
+variavel z criada
+variavel q criada
+variaveis criadas
+restricao P0 criada
+restricao P1 criada
+restricao P2 criada
+restricao P3 criada
+restricao P6 criada
+restricao P7 criada
+restricao P8 criada
+restricao P9 criada
+restricao P10 criada
+restricao PA criada
+restricao I1 criada
+restricao I2 criada
+restricao I3 criada
+restricao I4 criada
+restricao I5 criada
+restricao I6 criada
+restricao I7 criada
+restricao I8 criada
+restricao I9 criada
+restricoes criadas
+Numero de Variaveis =  2249280
+Numero de Restricoes =  882079
+resolvendo o modelo
+CPXPARAM_TimeLimit                               86400
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 20
+Presolve has eliminated 713470 rows and 822583 columns...
+Tried aggregator 3 times.
+MIP Presolve eliminated 715411 rows and 838450 columns.
+MIP Presolve modified 797870 coefficients.
+Aggregator did 713 substitutions.
+Reduced MIP has 165879 rows, 1410117 columns, and 15468194 nonzeros.
+Reduced MIP has 1410117 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 23.07 sec. (17485.99 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 6 rows and 0 columns.
+Aggregator did 3 substitutions.
+Reduced MIP has 165870 rows, 1410114 columns, and 15468116 nonzeros.
+Reduced MIP has 1410114 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 15.06 sec. (8774.17 ticks)
+Probing time = 1.85 sec. (341.94 ticks)
+Cover probing fixed 6 vars, tightened 0 bounds.
+Clique table members: 935952.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 103.37 sec. (53484.28 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        0.0000 13856                      0.0000        0         
+*     0+    0                         2956.0000        0.0000           100.00%
+      0     0        0.0000  2872     2956.0000   ZeroHalf: 4    21082  100.00%
+      0     0        0.0000  1729     2956.0000     Cuts: 269    44608  100.00%
+      0     0        0.0000  1316     2956.0000     Cuts: 283    66403  100.00%
+*     0+    0                          237.0000        0.0000           100.00%
+*     0+    0                          177.0000        0.0000           100.00%
+*     0+    0                          176.0000        0.0000           100.00%
+      0     0        0.0000   931      176.0000 ZeroHalf: 129    76916  100.00%
+      0     0        0.0000   600      176.0000  ZeroHalf: 88    88746  100.00%
+      0     0        0.0000   307      176.0000  ZeroHalf: 36    98745  100.00%
+      0     0        0.0000   527      176.0000  ZeroHalf: 18   107388  100.00%
+*     0+    0                            0.0000        0.0000             0.00%
+      0     0        cutoff              0.0000        0.0000   107388    0.00%
+Elapsed time = 748.54 sec. (427486.85 ticks, tree = 0.01 MB, solutions = 5)
+
+Clique cuts applied:  2
+Zero-half cuts applied:  280
+Gomory fractional cuts applied:  13
+
+Root node processing (before b&c):
+  Real time             =  748.81 sec. (427675.39 ticks)
+Parallel b&c, 20 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =  748.81 sec. (427675.39 ticks)
+
+Duracao =  832.627511978
+
+Solution status =  integer optimal solution
+Valor da Funcao Objetivo de Carregamento:  0.0
+Valor da Funcao Objetivo Sequencial:  11.0
+InstanciaModeloIntegrado_8_1.mat
+parametros criados
+variavel w criada
+variavel u criada
+variaveis criadas
+restricao I10 criada
+restricao N1 criada
+restricao N2 criada
+restricao N3 criada
+restricao N4 criada
+restricoes criadas
+Numero de Variaveis =  144648
+Numero de Restricoes =  9695
+resolvendo o modelo
+CPXPARAM_TimeLimit                               43200
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 20
+Tried aggregator 2 times.
+MIP Presolve eliminated 6608 rows and 101052 columns.
+MIP Presolve modified 180 coefficients.
+Aggregator did 468 substitutions.
+Reduced MIP has 2619 rows, 43128 columns, and 335772 nonzeros.
+Reduced MIP has 43128 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.48 sec. (504.15 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 2619 rows, 43128 columns, and 335772 nonzeros.
+Reduced MIP has 43128 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.26 sec. (293.05 ticks)
+Probing time = 0.09 sec. (15.15 ticks)
+Clique table members: 82964.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 0.79 sec. (905.60 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        1.0000  1376                      1.0000        0         
+*     0+    0                            1.0000        1.0000             0.00%
+      0     0        cutoff              1.0000        1.0000        0    0.00%
+Elapsed time = 14.43 sec. (17202.92 ticks, tree = 0.01 MB, solutions = 1)
+
+Root node processing (before b&c):
+  Real time             =   14.44 sec. (17207.66 ticks)
+Parallel b&c, 20 threads:
+  Real time             =    0.00 sec. (0.00 ticks)
+  Sync time (average)   =    0.00 sec.
+  Wait time (average)   =    0.00 sec.
+                          ------------
+Total (root+branch&cut) =   14.44 sec. (17207.66 ticks)
+
+Duracao =  15.6840291023
+
+Solution status =  integer optimal solution
+Valor da Funcao Objetivo Estiva:  1.0
+parametros criados
+variavel x criada
+variavel b criada
+variavel v criada
+variavel y criada
+variavel z criada
+variavel q criada
+variaveis criadas
+restricao P0 criada
+restricao P1 criada
+restricao P2 criada
+restricao P3 criada
+restricao P6 criada
+restricao P7 criada
+restricao P8 criada
+restricao P9 criada
+restricao P10 criada
+restricao PA criada
+restricao I1 criada
+restricao I2 criada
+restricao I3 criada
+restricao I4 criada
+restricao I5 criada
+restricao I6 criada
+restricao I7 criada
+restricao I8 criada
+restricao I9 criada
+restricoes criadas
+Numero de Variaveis =  4333407
+Numero de Restricoes =  2063295
+resolvendo o modelo
+CPXPARAM_TimeLimit                               86400
+CPXPARAM_Read_DataCheck                          1
+CPXPARAM_Threads                                 20
+Presolve has eliminated 1795172 rows and 1915947 columns...
+Aggregator has done 1266 substitutions...
+Tried aggregator 3 times.
+MIP Presolve eliminated 1799883 rows and 1972815 columns.
+MIP Presolve modified 1343598 coefficients.
+Aggregator did 1412 substitutions.
+Reduced MIP has 261914 rows, 2359180 columns, and 26008007 nonzeros.
+Reduced MIP has 2359180 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 50.29 sec. (31231.45 ticks)
+Tried aggregator 2 times.
+Aggregator has done 2 substitutions...
+MIP Presolve eliminated 4 rows and 0 columns.
+Aggregator did 2 substitutions.
+Reduced MIP has 261908 rows, 2359178 columns, and 26007955 nonzeros.
+Reduced MIP has 2359178 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 27.82 sec. (15882.66 ticks)
+Probing fixed 10 vars, tightened 0 bounds.
+Probing time = 4.31 sec. (1029.59 ticks)
+Cover probing fixed 11 vars, tightened 0 bounds.
+Clique table members: 1546858.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 20 threads.
+Root relaxation solution time = 191.13 sec. (99158.88 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0        0.0000 19506                      0.0000        0         
+      0     0        0.0000  3465                    Cuts: 26    47258         
+*     0+    0                         4605.0000        0.0000           100.00%
+      0     0        0.0000  2516     4605.0000     Cuts: 464    87904  100.00%
+      0     0        0.0000  2040     4605.0000     Cuts: 184   110548  100.00%
+*     0+    0                          670.0000        0.0000           100.00%
+*     0+    0                          289.0000        0.0000           100.00%
+*     0+    0                          284.0000        0.0000           100.00%
+      0     0        0.0000  2112      284.0000  ZeroHalf: 88   135905  100.00%
+Heuristic still looking.
+*     0+    0                            4.0000        0.0000           100.00%
+*     0+    0                            3.0000        0.0000           100.00%
+      0     2        0.0000   983        3.0000        0.0000   135905  100.00%
+Elapsed time = 1282.15 sec. (721448.78 ticks, tree = 0.01 MB, solutions = 6)
+      1     3        0.0000   760        3.0000        0.0000   135996  100.00%
+      2     4        0.0000   694        3.0000        0.0000   136024  100.00%
+      3     5        0.0000   648        3.0000        0.0000   138531  100.00%
+      5     7        0.0000   735        3.0000        0.0000   142689  100.00%
+      7     8        0.0000   676        3.0000        0.0000   142710  100.00%
+      8    10        0.0000   644        3.0000        0.0000   143609  100.00%
+     10    11        0.0000   629        3.0000        0.0000   144414  100.00%
+     11     3        0.0000  1041        3.0000        0.0000   142641  100.00%
+     12    13        0.0000   515        3.0000        0.0000   154063  100.00%
+     13    12        0.0000   569        3.0000        0.0000   148571  100.00%
+Elapsed time = 1316.38 sec. (733879.82 ticks, tree = 0.01 MB, solutions = 6)
+     15    14        0.0000   971        3.0000        0.0000   165318  100.00%
+*    16+   13                            2.0000        0.0000           100.00%
+     17    14        0.0000   967        2.0000        0.0000   160833  100.00%
+     19    20        0.0000   969        2.0000        0.0000   222608  100.00%
+     21    15        0.0000   468        2.0000        0.0000   170461  100.00%
+     22    16        0.0000   572        2.0000        0.0000   178215  100.00%
+     23    11        0.0000   567        2.0000        0.0000   149365  100.00%
+     27    23        0.0000   866        2.0000        0.0000   241838  100.00%
+     28    25        0.0000   462        2.0000        0.0000   265073  100.00%
+     31    17        0.2549   917        2.0000        0.0000   195483  100.00%
+*    32+    3                            1.0000        0.0000           100.00%
+     32    26        0.0000   555        1.0000        0.0000   270859  100.00%
+Elapsed time = 1379.54 sec. (752254.77 ticks, tree = 14.43 MB, solutions = 9)
+*    36+   17                            0.0000        0.0000             0.00%
+     36    24        0.0000   349        0.0000        0.0000   257014    0.00%
+     38     7        0.0000   662        0.0000        0.0000   142854    0.00%
+     39     8        0.0000   623        0.0000        0.0000   143478    0.00%
+     41    32        0.0000   386        0.0000        0.0000   316623    0.00%
+     44    33        0.0000   522        0.0000        0.0000   332004    0.00%
+     47    33        0.0000   647        0.0000        0.0000   328681    0.00%
+     49    32        0.3333   881        0.0000        0.0000   330084    0.00%
+     53    36        0.0000   633        0.0000        0.0000   337063    0.00%
+     54    37        0.0000   596        0.0000        0.0000   339484    0.00%
+     55    35        0.0000   542        0.0000        0.0000   335185    0.00%
+Elapsed time = 1424.44 sec. (772421.40 ticks, tree = 19.03 MB, solutions = 10)
+     58    20        0.0000   923        0.0000        0.0000   226527    0.00%
+     60    21        0.0000   957        0.0000        0.0000   235659    0.00%
+     63    40        0.0000   423        0.0000        0.0000   335611    0.00%
+     66    41        0.0000   613        0.0000        0.0000   336396    0.00%
+     68    42        0.0000   429        0.0000        0.0000   338942    0.00%
+     72    35        0.0000   635        0.0000        0.0000   338036    0.00%
+     74    37        0.0000   769        0.0000        0.0000   339456    0.00%
+     76    38        0.0000   545        0.0000        0.0000   340888    0.00%
+     82    48        0.0000   396        0.0000        0.0000   339471    0.00%
+     85    47    infeasible              0.0000        0.0000   339634    0.00%
+Elapsed time = 1433.21 sec. (786775.43 ticks, tree = 22.23 MB, solutions = 10)
+     91    44    infeasible              0.0000        0.0000   339912    0.00%
+     93    54        0.0000   341        0.0000        0.0000   351222    0.00%
+     99    63        0.0000   507        0.0000        0.0000   365684    0.00%
+    106    65        0.0000   485        0.0000        0.0000   366693    0.00%
+    112    63        0.0000   701        0.0000        0.0000   368505    0.00%
+    119    59        0.0000   319        0.0000        0.0000   352410    0.00%
+    126    59    infeasible              0.0000        0.0000   353285    0.00%
+    134    56        0.0000   213        0.0000        0.0000   352136    0.00%
+    136    66        0.0000   817        0.0000        0.0000   380774    0.00%
+    137    67        0.0000   948        0.0000        0.0000   392539    0.00%
+Elapsed time = 1469.09 sec. (812087.57 ticks, tree = 68.92 MB, solutions = 15)
+
+Clique cuts applied:  38
+Implied bound cuts applied:  1
+Zero-half cuts applied:  224
+Gomory fractional cuts applied:  12
+
+Root node processing (before b&c):
+  Real time             = 1247.24 sec. (701971.87 ticks)
+Parallel b&c, 20 threads:
+  Real time             =  257.13 sec. (155557.86 ticks)
+  Sync time (average)   =  128.07 sec.
+  Wait time (average)   =    8.02 sec.
+                          ------------
+Total (root+branch&cut) = 1504.37 sec. (857529.73 ticks)
+
+Duracao =  2109.60101104
+
+Solution status =  integer optimal solution
+Valor da Funcao Objetivo de Carregamento:  0.0
+Valor da Funcao Objetivo Sequencial:  1.0
+
+
+PS:
+
+Read file <4576173.err> for stderr output of this job.
+
