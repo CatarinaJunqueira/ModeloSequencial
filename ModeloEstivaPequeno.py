@@ -101,7 +101,7 @@ def ModeloEstivaPequeno(casename):
     model.set_results_stream(out_file)    
     model.set_results_stream(modelotxt)
     
-    model.parameters.timelimit.set(43200)  # limite de tempo em segundos (12 horas)
+    model.parameters.timelimit.set(129600)  # limite de tempo em segundos (12 horas)
     model.parameters.threads.set(20)
     #model.parameters.output.writelevel.set(1) # para escrever a solução 
 
@@ -402,7 +402,7 @@ def obterP(model,H,W,omega,T,phi):
 if __name__ == "__main__":
     
     #X = [1, 2 , 3, 5, 6, 4, 9, 10, 11, 12, 13, 14]
-    X= [7, 8, 4]
+    X= [7]
     for i in X:
         
         name_instance1 = 'InstanciaModeloIntegrado_' + str(i) + '.mat'
