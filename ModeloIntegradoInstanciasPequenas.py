@@ -214,10 +214,10 @@ def ModeloIntegradoInstanciasPequenas(casename):
     status = model.solution.get_status_string()
     fobj = model.solution.get_objective_value()
     Navio = obterNavio(model,R,C,Npatios)
-    Sol_Patios = []
-    for p in range(Npatios):
-        Pt = obterP(model,H[p],W[p],omega[p],T[p], phi[p])
-        Sol_Patios.append(Pt)
+  #  Sol_Patios = []
+  #  for p in range(Npatios):
+  #      Pt = obterP(model,H[p],W[p],omega[p],T[p], phi[p])
+  #      Sol_Patios.append(Pt)
     
     print('\nSolution status = ',status)
     print('Valor da Funcao Objetivo: ',fobj )

@@ -214,10 +214,10 @@ def ModeloIntegradoInstanciasGrande(casename):
     status = model.solution.get_status_string()
     fobj = model.solution.get_objective_value()
     Navio = obterNavio(model,R,C,Npatios)
-    Sol_Patios = []
-    for p in range(Npatios):
-        Pt = obterP(model,H[p],W[p],omega[p],T[p], phi[p])
-        Sol_Patios.append(Pt)
+ #   Sol_Patios = []
+ #   for p in range(Npatios):
+ #       Pt = obterP(model,H[p],W[p],omega[p],T[p], phi[p])
+ #       Sol_Patios.append(Pt)
     
     print('\nSolution status = ',status)
     print('Valor da Funcao Objetivo: ',fobj )
@@ -1285,6 +1285,6 @@ if __name__ == "__main__":
     X= [8,9,10,11,12]
     for i in X:
         
-        name_instance1 = 'InstanciaModeloIntegrado_' + str(i) + '.mat'
+        name_instance1 = 'InstanciaModeloIntegrado_' + str(i) + '_1.mat'
         print(name_instance1)
         _ = ModeloIntegradoInstanciasGrande(name_instance1)
