@@ -1,0 +1,53 @@
+Sender: LSF System <lsfadmin@nx360007>
+Subject: Job 4576183: <python ModeloIntegradoInstanciasGrande.py> in cluster <brl> Done
+
+Job <python ModeloIntegradoInstanciasGrande.py> was submitted from host <masternode> by user <mparedes> in cluster <brl>.
+Job was executed on host(s) <20*nx360007>, in queue <normal>, as user <mparedes> in cluster <brl>.
+</home/mparedes> was used as the home directory.
+</home/mparedes/ModeloSequencial> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python ModeloIntegradoInstanciasGrande.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.97 sec.
+    Max Memory :                                 -
+    Average Memory :                             -
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   1 sec.
+    Turnaround time :                            1723 sec.
+
+The output (if any) follows:
+
+InstanciaModeloIntegrado_8.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_9.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_10.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_11.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_12.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+
+
+PS:
+
+Read file <4576183.err> for stderr output of this job.
+

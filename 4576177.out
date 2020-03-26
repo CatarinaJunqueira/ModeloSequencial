@@ -1,0 +1,56 @@
+Sender: LSF System <lsfadmin@nx360001>
+Subject: Job 4576177: <python ModeloIntegradoInstanciasGrande.py> in cluster <brl> Done
+
+Job <python ModeloIntegradoInstanciasGrande.py> was submitted from host <masternode> by user <mparedes> in cluster <brl>.
+Job was executed on host(s) <20*nx360001>, in queue <normal>, as user <mparedes> in cluster <brl>.
+</home/mparedes> was used as the home directory.
+</home/mparedes/ModeloSequencial> was used as the working directory.
+Started at Results reported on 
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python ModeloIntegradoInstanciasGrande.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   3.86 sec.
+    Max Memory :                                 7 MB
+    Average Memory :                             7.00 MB
+    Total Requested Memory :                     -
+    Delta Memory :                               -
+    Max Swap :                                   -
+    Max Processes :                              3
+    Max Threads :                                4
+    Run time :                                   3 sec.
+    Turnaround time :                            1563 sec.
+
+The output (if any) follows:
+
+InstanciaModeloIntegrado_7_1.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_8_1.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_9_1.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_10_1.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_11_1.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+InstanciaModeloIntegrado_12_1.mat
+iniciando o modelo
+Nao eh necessario rodar de novo esta instancia
+
+
+PS:
+
+Read file <4576177.err> for stderr output of this job.
+

@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "ModeloIntegradoInstanciasPequenas.py", line 1290, in <module>
+    _ = ModeloIntegradoInstanciasPequenas(name_instance1)
+  File "ModeloIntegradoInstanciasPequenas.py", line 219, in ModeloIntegradoInstanciasPequenas
+    Pt = obterP(model,H[p],W[p],omega[p],T[p], phi[p])
+TypeError: obterP() takes exactly 5 arguments (6 given)
