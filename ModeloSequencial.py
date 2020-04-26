@@ -138,7 +138,7 @@ def ModeloSequencial(casename,modelNavio):
     model.set_results_stream(out_file)    
     model.set_results_stream(modelotxt)
 
-    model.parameters.timelimit.set(129600)  # limite de tempo em segundos (24 horas)
+    model.parameters.timelimit.set(216000)  # limite de tempo em segundos (24 horas)
     model.parameters.threads.set(20)
     
     print('resolvendo o modelo')
